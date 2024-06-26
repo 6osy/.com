@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6osy.com - Boutique Officielle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur 6osy.com</h1>
+        <p>La boutique officielle de l'artiste 6osy</p>
+    </header>
+
+    <nav>
+        <a href="#clothing">Vêtements</a>
+        <a href="#cds">Précommande de CD</a>
+        <a href="#streaming">Streaming</a>
+    </nav>
+
+    <section id="clothing" class="container">
+        <h2>Vêtements</h2>
+        <div class="card">
+            <p>Bientôt disponible : notre collection exclusive de vêtements. Restez à l'écoute pour les mises à jour !</p>
+        </div>
+    </section>
+
+    <section id="cds" class="container">
+        <h2>Précommande de CD</h2>
+        <div class="card">
+            <p>Bientôt disponible : précommandez les nouveaux CD de 6osy ici. Revenez bientôt pour plus de détails !</p>
+        </div>
+    </section>
+
+    <section id="streaming" class="container">
+        <h2>Streaming</h2>
+        <div class="card">
+            <p>Écoutez la musique de 6osy sur vos plateformes préférées :</p>
+            <p>
+                <a href="https://www.spotify.com" target="_blank">Spotify</a> | 
+                <a href="https://www.apple.com/music" target="_blank">Apple Music</a> | 
+                <a href="https://www.deezer.com" target="_blank">Deezer</a> | 
+                <a href="https://www.youtube.com" target="_blank">YouTube</a> | 
+                <a href="https://www.soundcloud.com" target="_blank">SoundCloud</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 6osy. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
